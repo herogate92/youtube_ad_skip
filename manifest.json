@@ -1,0 +1,32 @@
+{
+  "name": "Youtube Ad Auto Skip",
+  "description": "Youtube Ad Auto Skip!",
+  "manifest_version": 3,
+  "icons": {
+    "128": "skip.png"
+  },
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "autoskip.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": "skip.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "externally_connectable": {
+    "matches": [
+      "https://www.youtube.com/"
+    ]
+  }
+}
