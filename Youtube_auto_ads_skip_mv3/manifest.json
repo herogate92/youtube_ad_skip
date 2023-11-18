@@ -1,6 +1,6 @@
 {
-  "name": "Youtube Ad Click Skip",
-  "description": "Youtube Ad Click Skip!",
+  "name": "Youtube Ad Auto Skip",
+  "description": "Youtube Ad Auto Skip!",
   "manifest_version": 3,
   "icons": {
     "128": "skip.png"
